@@ -1,0 +1,16 @@
+$textColor: #fff;
+$headerColor: #d4a345;
+$mode: #fff;
+$bg: #050607;
+
+@mixin dc($color) {
+  color: text($color);
+}
+
+@function text-clr($color) {
+  @if (lightness($color) > 70) {
+    @return #333;
+  } @else {
+    @return #fff;
+  }
+}

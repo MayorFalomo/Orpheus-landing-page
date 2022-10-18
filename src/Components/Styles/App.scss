@@ -1,0 +1,9 @@
+@import "./Variables";
+
+.App {
+  background-color: $bg;
+  font-family: "Montserrat";
+  overflow: hidden;
+  color: #fff;
+  position: relative;
+}

@@ -1,0 +1,67 @@
+@import "../Styles/Variables";
+
+.maskCard {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  margin: 30px auto;
+  padding: 30px 20px;
+  button {
+    padding: 5px 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  span {
+    color: $headerColor;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  h2 {
+    color: $headerColor;
+    font-size: 20px;
+    box-shadow: rgb(246, 216, 143) 0px 20px 30px -10px;
+  }
+}
+.Card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: auto;
+  width: 70%;
+  text-align: center;
+  background-color: #07090c;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  h1 {
+    font-size: 40px;
+    color: $headerColor;
+  }
+  p {
+    margin: 20px 5px;
+    font-size: 23px;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+    text-align: center;
+    line-height: 40px;
+    width: 95%;
+  }
+}
+
+.maskImg {
+  img {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+  }
+}

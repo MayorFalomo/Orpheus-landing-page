@@ -1,0 +1,13 @@
+.PreloadCard {
+  background-color: #050607;
+}
+
+.loadContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.loadContainer img {
+  width: 200px;
+}/*# sourceMappingURL=Preload.css.map */

@@ -1,0 +1,13 @@
+.footerCard {
+  text-align: center;
+  margin: 50px auto;
+  border-top: 2px solid #d4a345;
+  padding: 30px 30px;
+}
+.footerCard h2 {
+  color: #d4a345;
+  margin-top: 30px;
+}
+.footerCard p {
+  margin: 20px auto;
+}/*# sourceMappingURL=Footer.css.map */

@@ -1,0 +1,15 @@
+@import "./Variables.scss";
+
+.footerCard {
+  text-align: center;
+  margin: 50px auto;
+  border-top: 2px solid $headerColor;
+  padding: 30px 30px;
+  h2 {
+    color: $headerColor;
+    margin-top: 30px;
+  }
+  p {
+    margin: 20px auto;
+  }
+}

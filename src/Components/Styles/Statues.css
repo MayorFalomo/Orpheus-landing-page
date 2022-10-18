@@ -1,0 +1,33 @@
+.statueContainer {
+  background-color: #07090c;
+  width: 90%;
+  margin: 50px auto;
+  padding: 30px 20px;
+}
+
+.Greek {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.Greek .flexText {
+  text-align: center;
+  background-color: #07090c;
+}
+.Greek h1 {
+  font-size: 40px;
+  color: #d4a345;
+}
+.Greek p {
+  font-size: 20px;
+  margin: 20px 5px;
+  letter-spacing: 10px;
+  word-spacing: 5px;
+  width: 90%;
+  line-height: 35px;
+}
+
+.Vertical {
+  width: 70%;
+}/*# sourceMappingURL=Statues.css.map */

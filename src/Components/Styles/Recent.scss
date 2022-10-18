@@ -1,0 +1,44 @@
+@import "Variables";
+
+.recentHeader {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1 rem;
+  width: 95%;
+  margin: 20px 5px;
+  button {
+    padding: 5px 10px;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    outline: 0;
+    color: $textColor;
+    cursor: pointer;
+  }
+  span {
+    color: $headerColor;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  p {
+    color: $headerColor;
+    font-size: 20px;
+    box-shadow: rgb(246, 216, 143) 0px 20px 30px -10px;
+  }
+}
+
+#light button {
+  color: black;
+  border: none;
+  outline: none;
+}
+
+.slider {
+  width: 95%;
+  margin: auto;
+  .slider img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+}

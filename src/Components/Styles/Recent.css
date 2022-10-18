@@ -1,0 +1,42 @@
+.recentHeader {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1 rem;
+  width: 95%;
+  margin: 20px 5px;
+}
+.recentHeader button {
+  padding: 5px 10px;
+  font-size: 15px;
+  background-color: transparent;
+  border: none;
+  outline: 0;
+  color: #fff;
+  cursor: pointer;
+}
+.recentHeader span {
+  color: #d4a345;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.recentHeader p {
+  color: #d4a345;
+  font-size: 20px;
+  box-shadow: rgb(246, 216, 143) 0px 20px 30px -10px;
+}
+
+#light button {
+  color: black;
+  border: none;
+  outline: none;
+}
+
+.slider {
+  width: 95%;
+  margin: auto;
+}
+.slider .slider img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}/*# sourceMappingURL=Recent.css.map */

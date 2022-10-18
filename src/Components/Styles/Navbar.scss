@@ -1,0 +1,81 @@
+@import "Variables";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.logoClass {
+  display: flex;
+  align-items: center;
+}
+.LogoCard img {
+  z-index: 999999999999999999;
+}
+
+nav {
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.1px);
+  -webkit-backdrop-filter: blur(7.1px);
+  padding: 40px 10px;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  .navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  li {
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 99999;
+  }
+  li:hover {
+    color: $headerColor;
+    cursor: pointer;
+  }
+  .showBar {
+    display: none;
+    z-index: 99999999999;
+  }
+  .navLight {
+    position: absolute;
+    right: -70px;
+    top: -50px;
+    width: 700px;
+    z-index: 1;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    min-width: 150px;
+  }
+
+  .bsSun {
+    font-size: 25px;
+  }
+  .bsMoon {
+    font-size: 25px;
+  }
+}
+
+.dark {
+  display: block;
+}
