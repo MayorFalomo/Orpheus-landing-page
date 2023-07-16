@@ -8,7 +8,7 @@ const Footer = () => {
       <p>GET IN TOUCH FOR OPPORTUNITIES OR JUST TO SAY HI 👋</p>
       <p>Figma Design by Raef Orpheus and Elina Moghaddam </p>
       <p>FrontEnd done by Mayowa Falomo </p>
-      <div>
+      <div className="socials" >
         <img src="./Socials.svg" alt="img" />
       </div>
     </div>

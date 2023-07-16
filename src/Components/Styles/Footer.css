@@ -11,6 +11,9 @@
 .footerCard p {
   margin: 20px auto;
 }
+.footerCard .socials {
+  margin-bottom: 40px;
+}
 
 #light p {
   color: black;
