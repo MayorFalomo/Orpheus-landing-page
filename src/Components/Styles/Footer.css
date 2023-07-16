@@ -10,4 +10,12 @@
 }
 .footerCard p {
   margin: 20px auto;
+}
+
+#light p {
+  color: black;
+}
+
+#light h2 {
+  color: black;
 }/*# sourceMappingURL=Footer.css.map */

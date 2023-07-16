@@ -18,7 +18,7 @@ a {
 }
 
 .LogoCard img {
-  z-index: 1000000000000000100;
+  z-index: 1000000000000000000;
 }
 
 nav {
@@ -71,11 +71,13 @@ nav img {
 }
 nav .bsSun {
   font-size: 25px;
-  cursor: pointer;
 }
 nav .bsMoon {
   font-size: 25px;
-  cursor: pointer;
+}
+
+#light li {
+  color: black;
 }
 
 .dark {

@@ -50,6 +50,7 @@ nav {
     color: $headerColor;
     cursor: pointer;
   }
+
   .showBar {
     display: none;
     z-index: 99999999999;
@@ -76,6 +77,9 @@ nav {
   }
 }
 
+  #light li {
+  color: black;
+}
 .dark {
   display: block;
 }
